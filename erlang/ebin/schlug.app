@@ -1,0 +1,10 @@
+{application,schlug,
+             [{description,"An OTP application"},
+              {vsn,"0.1.0"},
+              {registered,[]},
+              {mod,{schlug_app,[]}},
+              {applications,[kernel,stdlib]},
+              {env,[]},
+              {modules,[schlug_app,schlug_sup]},
+              {licenses,["Apache 2.0"]},
+              {links,[]}]}.
